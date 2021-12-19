@@ -1,0 +1,123 @@
+
+body{
+    
+   
+    background-attachment: fixed;
+    background-image: url(lake-1915846_1920.jpg);
+
+    /* Full height */
+    height: 100%;
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+.header{font-family: 'Monoton', cursive;
+    text-align: center;
+ color: rgb(255, 0, 255);
+font-size: x-large;
+text-decoration: underline double;
+margin-top: 20px;}
+
+
+.nav{
+    padding-top: 54px;
+    
+}
+
+
+.items{
+    padding-top:0px;
+    margin: 0px;
+    background-color:#ffca68 ;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: orange;
+    border-width: medium;
+    margin: 0px;
+}
+
+.btn{
+    border: none;
+    background-color:#ffca68;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    color: white;
+    font-family:sans-serif;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+.btn:hover{
+    
+    
+    font-size: 14px;
+    color: white;
+    
+
+}
+    
+
+
+
+.btn:active{
+    border: none;
+}
+
+
+.btn:focus{outline: none;}
+
+
+
+.item{
+    display: inline-flex;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 0px;
+    
+}
+
+
+#about{
+    font-size: 15px;
+    color: white;
+    border: solid;
+    border-radius: 0px;
+    
+    border-left:#ffca68 ;
+    border-right: #ffca68 ;
+
+}
+
+.content{
+    background-color: black;
+    opacity: 0.6;
+    width: 50%;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 40px;
+}
+
+.abouthead{
+    color: white;
+    font-size: 50px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.para{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}

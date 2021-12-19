@@ -1,0 +1,358 @@
+
+
+.header{font-family: 'Monoton', cursive;
+    text-align: center;
+ color: rgb(255, 0, 255);
+font-size: x-large;
+text-decoration: underline double;
+margin-top: 20px;}
+
+
+.nav{
+ padding-top: 44px;
+}
+
+
+.items{
+ padding-top:0px;
+ margin: 0px;
+ background-color:#ffca68 ;
+ border-top: solid;
+ border-bottom: solid;
+ border-color: orange;
+ border-width: medium;
+ margin: 0px;
+}
+
+.btn{
+ border: none;
+ background-color:#ffca68;
+ margin: 0px;
+ padding: 0px;
+ font-size: 13px;
+ color: white;
+ font-family:sans-serif;
+ text-align: center;
+ transition: all 0.5s;
+ cursor: pointer;
+}
+
+
+
+
+.btn:hover{
+ 
+ 
+ font-size: 14px;
+ color: white;
+ 
+
+}
+ 
+
+
+
+.btn:active{
+ border: none;
+}
+
+
+.btn:focus{outline: none;}
+
+
+
+.item{
+ display: inline-flex;
+ text-decoration: none;
+ margin-right: 20px;
+ margin-left: 0px;
+ 
+}
+
+
+#home{
+ font-size: 15px;
+ color: white;
+ border: solid;
+ border-radius: 0px;
+ border-left:#ffca68 ;
+ border-right: #ffca68 ;
+
+}
+
+/* SOME INFO */
+.onwc{
+ margin-top: 30px;
+}
+
+.onl{
+ color: grey;
+ font-family: 'Luckiest Guy', cursive;
+ font-size: x-large;
+}
+
+.wc{
+ color: black;
+ font-family: 'Luckiest Guy', cursive;
+ font-size: x-large;
+
+
+}
+
+/* SOME INFO  COMPLETED */
+
+/* MAIN CONTENT */
+.maincontent{
+ margin-top: 120px;
+}
+
+.mcontent{
+ padding: 2px;
+}
+.weigh{
+ text-decoration: none;
+ display: inline-flex;
+ margin-right: 2px;
+}
+
+.head{
+ font-family: sans-serif;
+}
+
+#p{
+ border: solid;
+ border-color: red;
+ border-radius: 5px;
+ background-color: rgb(255, 71, 71) ;
+ 
+
+ margin: 0px;
+ padding: 5px;
+ font-size: 13px;
+ color: white;
+ font-family:sans-serif;
+ text-align: center;
+ transition: all 0.5s;
+ cursor: pointer;
+}
+
+#kg{
+ border: solid;
+ border-color:blue;
+ border-radius: 5px;
+ background-color:white;
+ 
+
+ margin: 0px;
+ padding: 5px;
+ font-size: 13px;
+ color: blue;
+ font-family:sans-serif;
+ text-align: center;
+ transition: all 0.5s;
+ cursor: pointer;
+
+}
+#kg:hover{
+ background-color: rgb(110, 110, 255);
+ color: white;
+}
+
+#g{
+ border: solid;
+ border-color:green;
+ border-radius: 5px;background-color:white;
+ 
+ background-color:white;
+
+ margin: 0px;
+ padding: 5px;
+ font-size: 13px;
+ color: green;
+ font-family:sans-serif;
+ text-align: center;
+ transition: all 0.5s;
+ cursor: pointer;
+
+}
+#g:hover{
+ background-color: rgb(64, 167, 64);
+ color: white;
+}
+
+#o{
+ border: solid;
+ border-color:purple;
+ border-radius: 5px;
+ background-color:white;
+ 
+
+ margin: 0px;
+ padding: 5px;
+ font-size: 13px;
+ color: purple;
+ font-family:sans-serif;
+ text-align: center;
+ transition: all 0.5s;
+ cursor: pointer;
+
+}
+#o:hover{
+ background-color: rgb(180, 65, 180);
+ color: white;
+}
+
+#s{
+ border: solid;
+ border-color: black;
+ border-radius: 5px;
+ background-color:white;
+ 
+
+ margin: 0px;
+ padding: 5px;
+ font-size: 13px;
+ color: black;
+ font-family:sans-serif;
+ text-align: center;
+ transition: all 0.5s;
+ cursor: pointer;
+
+}
+#s:hover{
+ background-color: gray;
+ color: white;
+}
+
+
+.wbtn:focus{outline: none;}
+
+.resetbtn{
+ border-style: double;
+ border-color: green;
+ border-radius: 4px;
+ font-family: sans-serif;
+ color: green;
+ background-color: white;
+}
+
+.resetbtn:hover{
+ border-style: double;
+ border-color: green;
+ border-radius: 4px;
+ font-family: sans-serif;
+ color: white;
+ background-color: rgb(62, 165, 62);
+ 
+}
+.resetbtn:focus{outline: none;}
+
+/* MAIN CONTENT COMPLETED */
+
+/* CALCULATION */
+.calculation{
+ margin-top:  50px;
+}
+.calc{
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+input[type=number]:focus{
+ outline: none;
+ border: solid rgb(129, 123, 123);
+ border-radius: 1px;
+}
+
+/* CALCULATION COMPLETED */
+/* THANKS */
+.footer{
+ margin-top: 150px;
+}
+
+.thba{
+ background-color: rgb(63, 63, 63);
+ width: 100%;
+ height: 30px;
+ bottom: 0;
+ 
+}
+
+
+
+
+
+.owc{font-family: 'Holtwood One SC', serif;
+  
+}
+
+.owc{
+ 
+ 
+ color: pink;
+ text-align: center;
+ animation-name: online;
+ animation-duration: 20s;
+ animation-iteration-count: infinite;
+ display: block;
+ 
+ 
+ 
+
+ 
+ border-style: solid;
+ border-left: black;
+ border-right: black;
+ 
+ border-width: thick;
+
+ margin-top: 15px;
+ 
+ 
+ 
+
+}
+
+@keyframes online{
+ 
+
+ 20%{
+     color: rgb(241, 255, 50);
+ }
+ 40%{
+     color: rgb(154, 154, 255);
+ }
+
+ 60%{
+     color: orange;
+
+ 
+ }
+ 
+ 80%{
+     color: rgb(161, 255, 148);
+ }
+ 
+
+}
+
+
+
+.message{
+ 
+   font-family: sans-serif;
+
+   color: gray;
+   font-size: 10px;
+  
+}
+
+.msg{
+  
+ font-family: sans-serif;
+ 
+ color: gray;
+ font-size: 12px;
+ 
+}
+
+/* THANKS */

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="ounces.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+    <script src="ounces.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        calcMaster.com
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <div class="nav">
+            <ul class="items">
+                <li class="item">
+
+                    <button class="btn" id="home">Home</button>
+                   
+                </li>
+                <li class="item">
+                    <a href="about.html">
+                        <button class="btn">About</button>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="services.html">
+                        <button class="btn">Services</button>
+                    </a>
+                </li>
+                <!-- contact button is still disabled -->
+                <!-- <li class="item" type="button">
+                    <a href="contact.html">
+                        <button class="btn" type="button">Contact Us</button>
+                    </a>
+                </li> -->
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- NAVIGATION BAR COMPLETED -->
+
+
+
+    <!-- SOME INFO -->
+    <div class="onwc">
+    <div class="onl">
+        ONLINE
+    </div>
+    <hr color="grey">
+    <div class="wc">
+        WEIGHT CONVERTER
+    </div>
+    </div>
+    
+    <!-- INFO COMPLETED -->
+
+
+
+
+    <!-- MAIN CONTENT -->
+
+
+    <div class="maincontent">
+        <span class="head"><strong>Convert From:</strong></span>
+        <ul class="mcontent">
+
+
+            <li class="weigh">
+                <a href="index.html">
+                <button class="wbtn" id="kg">Kilograms</button>
+                </a>
+            </li>
+
+            <li class="weigh">
+                <a href="grams.html">
+                <button class="wbtn" id="g">Grams</button>
+            </a>
+            </li>
+
+            <li class="weigh">
+                <a href="pounds.html">
+                <button class="wbtn" id="p">Pounds</button>
+                </a>
+            </li>
+
+            <li class="weigh">
+               
+                <button class="wbtn" id="o">Ounces</button>
+                
+            </li>
+
+            <li class="weigh">
+                <a href="stones.html">
+                <button class="wbtn" id="s">Stones</button>
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+
+    <!-- MAIN CONTENT COMPLETED -->
+
+    <!-- CALCULATION -->
+    <form>
+    <div class="calculation">
+        <p class="calc">
+            <label> Ounces(oz)*:</label>
+            <input id="inputOunces" type="number" onkeypress="return event.charCode>=48" min="0"
+                placeholder="&nbsp; &nbsp;  Ounces" oninput="weightConverter(this.value)">
+
+        </p>
+        <hr color="red">
+
+       
+
+
+
+       
+        <p class="calc">
+            <label>Stones(st):<span id="outputStones"></span></label>
+        </p>
+
+        <p class="calc">
+            <label>Kilograms(kg):<span id="outputKilorams"></span></label>
+        </p>
+        <p class="calc">
+            <label>Grams(g):<span id="outputGrams"></span></label>
+        </p>
+        <p class="calc">
+            <label>Pounds(lb):<span id="outputPounds"></span></label>
+        </p> 
+
+        <hr color="red">
+        <div>
+            <!-- 10.RESET TAG -->
+            <input type="reset" value="Reset Now*" class="resetbtn">
+        </div>
+        <hr color="red">
+   
+
+
+
+    </div>
+</form>
+
+<!-- THANK YOU -->
+<footer class="footer">
+<div class="thba">
+        
+       
+   
+    <div class="owc">
+        THANK YOU FOR VISITING !!!
+    </div>
+    
+</div>
+
+
+<br>
+   <p class="message">STAY TUNED FOR MORE UPDATES AND SERVICES<br><hr color="gray"><span class="msg">Hope you like our converter</span></p>
+</footer>
+    
+<!-- THANK YOU COMPLETED -->
+
+
+</body>
+
+</html>
